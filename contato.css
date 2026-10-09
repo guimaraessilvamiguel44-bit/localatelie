@@ -1,0 +1,176 @@
+/* ÁREA DE CONTATO */
+
+.contato {
+    width: 90%;
+    max-width: 600px;
+
+    margin: 40px auto;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+/* TÍTULO */
+
+.contato h2 {
+    color: #b76e79;
+
+    font-size: 30px;
+}
+
+
+/* TEXTO */
+
+.contato p {
+    color: #654b43;
+}
+
+
+/* FORMULÁRIO */
+
+form {
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: left;
+
+    margin-top: 25px;
+}
+
+
+/* LABEL */
+
+label {
+    color: #654b43;
+
+    font-weight: bold;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+}
+
+
+/* INPUT, SELECT E TEXTAREA */
+
+input,
+select,
+textarea {
+
+    padding: 12px;
+
+    border: 1px solid #d3b8b0;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* QUANDO CLICAR NO CAMPO */
+
+input:focus,
+select:focus,
+textarea:focus {
+
+    outline: none;
+
+    border: 2px solid #b76e79;
+}
+
+
+/* BOTÃO */
+
+button {
+
+    margin-top: 25px;
+
+    padding: 14px;
+
+    background-color: #b76e79;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* EFEITO DO BOTÃO */
+
+button:hover {
+
+    background-color: #965762;
+
+}
+
+
+/* INFORMAÇÕES */
+
+.informacoes {
+
+    text-align: center;
+
+    margin: 40px auto;
+
+    width: 90%;
+
+    max-width: 600px;
+
+    background-color: #f0ddd7;
+
+    padding: 25px;
+
+    border-radius: 15px;
+}
+
+
+.informacoes h2 {
+
+    color: #654b43;
+
+}
+
+header {
+    background-color: #d4145a;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0 0 20px;
+    font-size: 38px;
+
+}
+
+nav a {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+body{
+    margin:0px ;
+}
